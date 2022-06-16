@@ -17,21 +17,15 @@
     /*---------------*\
     |       nav       |
     \*---------------*/
-    nav a {
-        font-size: 30px;
-    }
+
 
     nav {
         width: 50%;
     }
 
-    section h2 {
-        font-size: 30px;
-    }
 
-    section p {
-        font-size: 28px;
-    }
+
+
 
     /*---------------*\
     |      main       |
@@ -41,14 +35,13 @@
     }
 
     section {
-        height: 700px;
+        height: auto;
     }
 
     /*---------------*\
     |    recherche    |
     \*---------------*/
     .recherche {
-        height: 80px;
         width: 100%;
         margin-top: 60px;
         margin-left: auto;
@@ -56,13 +49,9 @@
 
     .localisation {
         height: 100%;
-        width: 80px;
+        width: 60px;
         font-size: 20px;
-        border-radius: 25px 0 0 25px;
-    }
-
-    .fa-location-dot {
-        font-size: 32px;
+        border-radius: 15px 0 0 15px;
     }
 
     .barre_recherche {
@@ -72,14 +61,12 @@
 
     input {
         height: 100%;
-        font-size: 33px;
     }
 
     button {
         height: 100%;
-        width: 80px;
-        border-radius: 25px;
-        font-size: 30px;
+        width: 60px;
+        border-radius: 0 15px 15px 0;
     }
 
     .fa-magnifying-glass::before {
@@ -93,10 +80,6 @@
     /*---------------*\
     |     filtre      |
     \*---------------*/
-    article h3 {
-        font-size: 30px;
-    }
-
     .filtre {
         flex-direction: column;
         align-items: flex-start;
@@ -111,28 +94,15 @@
     }
 
     .bordure_filtre {
-        height: 72px;
         margin: 10px 0;
         margin-right: 20px;
         border-radius: 50px;
-        border: 4px solid lightgray;
+
         border-left: none;
-    }
-
-    .bordure_filtre:hover {
-        height: 76px;
-    }
-
-    .icone_filtre {
-        height: 80px;
-        width: 80px;
-        border-radius: 50px;
-        font-size: 33px;
     }
 
     .tag_filtre {
         padding: 0 26px 0 13px;
-        font-size: 26px;
     }
 
     /*---------------*\
@@ -140,20 +110,10 @@
     \*---------------*/
     .flex_info {
         align-items: flex-start;
-        margin: 50px 0 140px 0;
+        margin: 50px 0 10px 0;
     }
 
-    .flex_info p {
-        font-size: 28px;
-    }
 
-    .icone_info {
-        border-radius: 20px;
-        height: 36px;
-        width: 36px;
-        margin-right: 10px;
-        font-size: 36px;
-    }
 
     /*---------------*\
     |    container    |
@@ -169,7 +129,6 @@
         align-items: center;
         width: 100%;
         height: auto;
-        margin-top: -30px;
         margin-bottom: 10px;
     }
 
@@ -185,14 +144,13 @@
         align-items: center;
         border-radius: 0;
         width: 100%;
-        height: 1240px;
+        height: auto;
         padding: 0;
         margin: 0;
     }
 
     .titre_pop {
         margin: 66px 30px 30px 30px;
-        font-size: 38px;
         width: 90%;
     }
 
@@ -205,7 +163,7 @@
     }
 
     .card_populaire {
-        height: 320px;
+        height: 220px;
         width: 100%;
         margin-bottom: 20px;
         padding: 8px 0 8px 8px;
@@ -219,7 +177,6 @@
 
     .tag_populaire {
         width: 50%;
-        height: 230px;
         padding: 0 10px 0 20px;
         display: flex;
         flex-direction: column;
@@ -228,12 +185,12 @@
 
     .li_titre_pop {
         width: 80%;
-        font-size: 29px;
+        font-size: 20px;
         font-weight: bold;
     }
 
     .li_description_pop {
-        font-size: 25px;
+        font-size: 15px;
         padding-bottom: 80px;
     }
 
@@ -241,7 +198,7 @@
         margin: 0;
         padding-bottom: 10px;
         height: 20px;
-        font-size: 33px;
+        font-size: 25px;
     }
 
     /*---------------*\
@@ -256,7 +213,7 @@
         background-color: white;
         border-radius: 0;
         width: 100%;
-        height: 2370px;
+        height: auto;
         padding: 0;
         margin: 0;
     }
@@ -264,7 +221,6 @@
     .Hébergements h2 {
         width: 90%;
         margin: 40px 30px;
-        font-size: 40px;
     }
 
     .container_card_hébergement {
@@ -282,7 +238,7 @@
         align-items: center;
         background-color: white;
         width: 100%;
-        height: 320px;
+        height: 220px;
         border-radius: 15px;
         padding: 4px;
         box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
@@ -308,22 +264,22 @@
     }
 
     .li_titre {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .li_description {
-        font-size: 27px;
+        font-size: 15px;
         padding-bottom: 80px;
     }
 
     .étoile {
-        font-size: 35px;
+        font-size: 25px;
         margin-top: 10px;
     }
 
     .bold {
         margin: 30px 30px;
-        font-size: 35px;
+        font-size: 20px;
     }
 
     /*---------------*\
@@ -336,7 +292,7 @@
 
     .Activités h2 {
         margin-bottom: 30px;
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .container_acti,
@@ -354,7 +310,7 @@
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        height: 320px;
+        height: 220px;
         margin-bottom: 30px;
     }
 
@@ -377,12 +333,12 @@
     .tag_acti_m2 {
         width: 40%;
         height: 26%;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .container_acti_m {
         width: 100%;
-        height: 670px;
+        height: 470px;
         margin-bottom: 30px;
     }
 
@@ -394,7 +350,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 320px;
+        height: 220px;
     }
 
     /*---------------*\
@@ -416,11 +372,11 @@
 
     li a p {
         margin: 20px 0;
-        font-size: 28px;
+        font-size: 20px;
     }
 
     li b {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .footer_1 {

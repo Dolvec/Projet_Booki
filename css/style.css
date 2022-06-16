@@ -1,16 +1,14 @@
 /*---------------*\
 |      général    |
 \*---------------*/
+
 html,
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
 }
 
-.body {
-    margin: auto;
-    max-width: 1440px;
-}
+
 
 h2 {
     font-size: 22px;
@@ -44,6 +42,10 @@ ul {
 /*---------------*\
 |      header     |
 \*---------------*/
+.header {
+    margin: 0 40px 0 40px;
+    max-width: 1440px;
+}
 
 .header,
 nav {
@@ -75,7 +77,12 @@ nav a {
     font-size: 17px;
 }
 
-.hebergement {
+.hebergement:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+.activite:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
 }
@@ -84,11 +91,16 @@ nav a {
     border-top: 3px solid transparent;
 }
 
+.hebergement {
+    border-top: 3px solid transparent;
+}
+
 /*---------------*\
 |      main       |
 \*---------------*/
 main {
-    margin: 0 70px 0 30px;
+    margin: auto;
+    max-width: 1440px;
 }
 
 section {
@@ -578,6 +590,8 @@ footer {
     align-items: center;
     height: 200px;
     padding-top: 50px;
+    max-width: none;
+    margin: auto;
 }
 
 .pad_foot {
